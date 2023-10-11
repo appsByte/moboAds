@@ -73,7 +73,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 groupId = 'com.github.appsByte'
-                artifactId = 'Adslib2023'
+                artifactId = 'moboAds'
                 version = '1.0.1'
                 artifact(bundleReleaseAar)
             }
