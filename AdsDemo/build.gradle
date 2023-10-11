@@ -72,9 +72,9 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.github.KevalCB'
+                groupId = 'com.github.appsByte'
                 artifactId = 'Adslib2023'
-                version = '1.0.9'
+                version = '1.0.1'
                 artifact(bundleReleaseAar)
             }
         }
