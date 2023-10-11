@@ -61,11 +61,7 @@ dependencies {
 //      implementation 'com.facebook.android:-facebook-sdk:15.0.2'
 
 
-    implementation 'com.github.appsByte:moboAds:1.0.1'
-
-
-
-
+    implementation project(path: ':AdsDemo')
 
 
 }
