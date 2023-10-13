@@ -89,8 +89,16 @@ public class Ads_Preference {
         this.editor.putString("QUREKA_WEBVIEW_ON_OFF", str).commit();
     }
 
+    public void set_one_signal_app_id(String str) {
+        this.editor.putString("ONESIGNAL_APP_ID", str).commit();
+    }
+
     public String get_qureka_webview_on_off() {
         return this.prefs.getString("QUREKA_WEBVIEW_ON_OFF", "");
+    }
+
+    public String get_one_signal_app_id() {
+        return this.prefs.getString("ONESIGNAL_APP_ID", "");
     }
 
     public void set_VPN_URL(String str) {
